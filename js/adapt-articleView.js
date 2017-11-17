@@ -349,6 +349,7 @@ define([
         },
 
         _blockSliderResizeHeight: function(animate) {
+            return;
             var $container = this.$el.find(".article-block-slider");
             var isEnabled = this._blockSliderIsEnabledOnScreenSizes();
 

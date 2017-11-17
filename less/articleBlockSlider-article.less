@@ -1,4 +1,5 @@
 .article-block-slider-enabled {
+	/*
 	&.article {
 		.article-inner { // Duplicated from Open Source .block-inner
 			margin: auto;
@@ -13,7 +14,7 @@
 			}
 		}
 	}
-
+	*/
 	.article-block-organise {
 		margin: 0 auto;
 		position: relative;
@@ -37,6 +38,11 @@
 
 	.article-block-toolbar {
 		width: 100%;
+		background-color: @navigation-color;
+		height: @navigation-height;
+		z-index: -10;
+		position: fixed;
+		bottom: 0px;
 	}
 
 	.item-button-container {
@@ -49,6 +55,7 @@
 	}
 
 	// Arrows General
+	/*
 	.has-arrows {
 		.block {
 			.block-inner {
@@ -78,7 +85,7 @@
 			}
 		}
 	}
-
+	*/
 	// Arrow Buttons
 	.item-button-arrow {
 		background-color: @button-color;
