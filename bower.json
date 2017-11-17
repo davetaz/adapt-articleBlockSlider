@@ -1,10 +1,10 @@
 {
     "name": "adapt-articleBlockSlider",
-    "repository": "git://github.com/cgkineo/adapt-articleBlockSlider",
+    "repository": "git://github.com/davetaz/adapt-articleBlockSlider",
     "framework": ">=2.0.13",
     "version": "2.0.4",
-    "homepage": "https://github.com/cgkineo/adapt-articleBlockSlider",
-    "issues": "https://github.com/cgkineo/adapt-articleBlockSlider/issues/",
+    "homepage": "https://github.com/davetaz/adapt-articleBlockSlider",
+    "issues": "https://github.com/davetaz/adapt-articleBlockSlider/issues/",
     "displayName": "Article Block Slider",
     "extension": "articleBlockSlider",
     "description": "A simple left and right slider for an article's blocks",
