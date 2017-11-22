@@ -39,7 +39,6 @@ define([
         },
 
         _blockSliderSetupEventListeners: function() {
-
             this._onBlockSliderResize = _.bind(this._onBlockSliderResize, this);
             this._blockSliderResizeHeight = _.bind(this._blockSliderResizeHeight, this);
 
@@ -279,6 +278,7 @@ define([
 
             var currentBlock = this.model.get("_currentBlock");
             var $currentBlock = $(blocks[currentBlock]);
+            Adapt.trigger('slider:moveRight',$(blocks[currentBlock]));
 
             if (this._disableAnimationOnce) animate = false;
             if (this._disableAnimations) animate = false;
